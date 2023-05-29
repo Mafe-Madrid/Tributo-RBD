@@ -1,0 +1,137 @@
+body {
+  background-image: url(/Captura\ de\ pantalla\ 2023-04-17\ 160804.png);
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-color: #333;
+}
+
+.navi {
+  text-align: center; 
+  padding: 0; 
+  margin: 0; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  background-color: #333;
+  height: 50px; 
+}
+
+.headernava {
+  display: inline-block; 
+  margin-right: 20px;
+}
+
+#rs {
+  float: right; 
+  margin-right: 20px; 
+}
+
+footer {
+  background-color: rgb(112, 57, 57);
+  font-size: x-large;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: 'Oswald', sans-serif;    
+}
+
+footer p {
+  color: white;
+}
+
+.navi ul {
+  display: flex; 
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0; 
+}
+
+.headernava a {
+  display: block; 
+  color: white; 
+  text-decoration: none; 
+  padding: 10px; 
+}
+
+.headernava a:hover {
+  background-color: #555; 
+}
+
+.contenido {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  color: white;
+}
+
+#contenedor {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.video-columna {
+  width: 100%;
+  height: auto;
+  padding: 35px;
+}
+
+.Imagen {
+  width: 100%;
+  height: auto;
+  padding: 35px;
+}
+
+@media screen and (max-width: 480px) {
+  .navi {
+      height: 30px;
+      padding: 5px;
+  }
+
+  .headernava {
+      margin-right: 10px;
+  }
+
+  footer {
+      font-size: large;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .navi {
+      height: 40px;
+      padding: 10px;
+  }
+
+  .headernava {
+      margin-right: 15px;
+  }
+
+  footer {
+      font-size: medium;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .navi {
+      height: 50px;
+      padding: 15px;
+  }
+
+  .headernava {
+      margin-right: 20px;
+  }
+
+  footer {
+      font-size: large;
+  }
+}

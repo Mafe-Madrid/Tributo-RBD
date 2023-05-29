@@ -1,0 +1,133 @@
+body {
+  background-image: url(/Captura\ de\ pantalla\ 2023-04-17\ 160804.png);
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-color: #333;
+}
+
+.navi {
+  text-align: center; 
+  padding: 0; 
+  margin: 0; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  background-color: #333;
+  height: 50px; 
+}
+
+.headernava {
+  display: inline-block; 
+  margin-right: 20px;
+}
+
+footer {
+  background-color: rgb(112, 57, 57) ;
+  font-size: x-large;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: 'Oswald', sans-serif;    
+}
+
+footer p {
+  color: white;
+}
+
+.navi ul {
+  display: flex; 
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0; 
+} 
+
+.headernava a {
+  display: block; 
+  color: white; 
+  text-decoration: none; 
+  padding: 10px; 
+}
+
+.headernava a:hover {
+  background-color: #555;
+}
+
+.Formulario-Titulo {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  color: white;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+      height: 80px;
+      padding: 10px;
+      background-color: #333;
+  }
+
+  .navi {
+      height: 40px;
+      padding: 5px;
+      background-color: #333;
+  }
+
+  .Formulario-Titulo {
+      color: blue;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .header {
+      height: 100px;
+      padding: 15px;
+      background-color: #333;
+  }
+
+  .navi {
+      height: 60px;
+      padding: 10px;
+      background-color: #333;
+  }
+
+  form {
+      padding: 10px;
+      color: #333;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .header {
+      height: 120px;
+      padding: 20px;
+      background-color: #333;
+  }
+
+  .navi {
+      height: 80px;
+      padding: 15px;
+      background-color: #333;
+  }
+
+  form {
+      padding: 30px;
+      color: #333;
+  }
+}
+  
